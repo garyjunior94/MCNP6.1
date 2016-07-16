@@ -1,0 +1,312 @@
+MCNPX Visual Editor Version X_24E 
+c     Created on: Monday, September 08, 2014 at 11:19
+c **********************CELL CARDS**********************
+c Cell number,   material number,   density,    surfaces,    
+c      importance 
+c
+c Inside R1 Aorta                                                             
+    10   5     -1.0641 -4 IMP:P,E=1
+c Inside R2 Aorta                                       
+    20   5     -1.0641 -5 4 IMP:P,E=1
+c Inside R3 Aorta                                       
+    30   5     -1.0641 -6 5 IMP:P,E=1
+c Inside R4 Aorta                                       
+    40   5     -1.0641 -7 6 IMP:P,E=1
+c Inside R5 Aorta                                       
+    50   5     -1.0641 -8 7 IMP:P,E=1
+c Inside R6 Aorta                                       
+    60   5     -1.0641 -9 8 IMP:P,E=1
+c Inside R7 Aorta                                       
+    70   5     -1.0641 -10 9 IMP:P,E=1
+c Inside R8 Aorta                                       
+    80   5     -1.0641 -11 10 IMP:P,E=1
+c Inside R9 Aorta                                       
+    90   5     -1.0641 -12 11 IMP:P,E=1
+c Inside R10 Aorta                                       
+    100   5     -1.0641 -13 12 IMP:P,E=1
+c Inside R11 Aorta                                       
+    110   5     -1.0641 -14 13 IMP:P,E=1
+c Inside R12 Aorta                                       
+    120   5     -1.0641 -15 14 IMP:P,E=1
+c Inside R13 Aorta                                       
+    130   5     -1.0641 -16 15 IMP:P,E=1
+c Inside R14 Aorta                                       
+    140   5     -1.0641 -17 16 IMP:P,E=1
+c Inside R15 Aorta                                       
+    150   5     -1.0641 -18 17 IMP:P,E=1
+c Inside R16 Aorta                                       
+    160   5     -1.0641 -19 18 IMP:P,E=1
+c Inside R17 Aorta                                       
+    170   5     -1.0641 -20 19 IMP:P,E=1
+c Inside R18 Aorta                                       
+    180   5     -1.0641 -21 20 IMP:P,E=1
+c Inside R19 Aorta                                       
+    190   5     -1.0641 -22 21 IMP:P,E=1
+c Inside R20 Aorta                                       
+    200   5     -1.0641 -23 22 IMP:P,E=1
+c Inside R21 Aorta                                       
+    210   5     -1.0641 -24 23 IMP:P,E=1
+c Inside R22 Aorta                                       
+    220   5     -1.0641 -25 24 IMP:P,E=1
+c Inside R23 Aorta                                       
+    230   5     -1.0641 -26 25 IMP:P,E=1
+c Inside R24 Aorta                                       
+    240   5     -1.0641 -27 26 IMP:P,E=1
+c Inside R25 Aorta                                       
+    250   5     -1.0641 -28 27 IMP:P,E=1
+c Inside R26 Aorta                                       
+    260   5     -1.0641 -29 28 IMP:P,E=1
+c
+c  OUTSIDE --- R27 Thorax                                       
+    270   2     -1 -30 29 IMP:P,E=1
+c  Thorax R28                                         
+    280   2     -1 -31 30 IMP:P,E=1
+c  Thorax R29                                        
+    290   2     -1 -32 31 IMP:P,E=1
+c  Thorax R30                                        
+    300   2     -1 -33 32 IMP:P,E=1
+c  Thorax R31                                        
+    310   2     -1 -34 33 IMP:P,E=1
+c  Thorax R32                                        
+    320   2     -1 -35 34 IMP:P,E=1
+c  Thorax R33                                        
+    330   2     -1 -36 35 IMP:P,E=1
+c  Thorax R34                                        
+    340   2     -1 -37 36 IMP:P,E=1
+c  Thorax R35                                        
+    350   2     -1 -38 37 IMP:P,E=1
+c  Thorax R36                                        
+    360   2     -1 -39 38 IMP:P,E=1
+c  Thorax R37                                        
+    370   2     -1 -40 39 IMP:P,E=1
+c  Thorax R38                                        
+    380   2     -1 -41 40 IMP:P,E=1
+c  Thorax R39                                        
+    390   2     -1 -42 41 IMP:P,E=1
+c  Thorax R40                                        
+    400   2     -1 -43 42 IMP:P,E=1
+c  Test cylinder 1
+    410   2     -1 -44 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 2
+    420   2     -1 -45 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 3
+    430   2     -1 -46 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 4
+    440   2     -1 -47 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 5
+    450   2     -1 -48 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 6
+    460   2     -1 -49 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 7
+    470   2     -1 -50 -1 IMP:P,E=1
+      VOL=50.27
+c  Test cylinder 8
+    480   2     -1 -51 -1 IMP:P,E=1
+      VOL=50.27
+c Inside Left Lung
+    500   1     -1.05  -3 -1 IMP:P,E=1
+      VOL=1759.36
+c Inside Right Lung
+    600   1     -1.05  -2 -1 IMP:P,E=1
+      VOL=1759.36
+c Rest of Thorax
+    700   2     -1  -1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+         17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+         33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+         48 49 50 51 IMP:P,E=1
+       VOL=7064.6
+c Outside of Thorax
+    800  4     -.0012048  -60 1 IMP:P,E=1
+c Void
+    1000  0     60  IMP:P,E=0
+
+c **********************SURFACE CARDS**********************                 
+c    Thorax                                                                     
+    1       rec 0 0 0 0 0 16 17 0 0 0 13 0 
+c    Right Lung                                                                 
+    2       rec 7 0 0 0 0 16 5 0 0 0 7 0 
+c    Left Lung                                                                  
+    3       rec -7 0 0 0 0 16 5 0 0 0 7 0 
+c    Inner Aorta R1                                                             
+    4       rcc 0 0 3 0 0 10 0.03
+c    Inner Aorta R2
+    5       rcc 0 0 3 0 0 10 0.08
+c    Inner Aorta R3
+    6       rcc 0 0 3 0 0 10 0.13
+c    Inner Aorta R4
+    7       rcc 0 0 3 0 0 10 0.18
+c    Inner Aorta R5
+    8       rcc 0 0 3 0 0 10 0.23
+c    Inner Aorta R6
+    9       rcc 0 0 3 0 0 10 0.28
+c    Inner Aorta R7
+    10      rcc 0 0 3 0 0 10 0.33
+c    Inner Aorta R8
+    11      rcc 0 0 3 0 0 10 0.38
+c    Inner Aorta R9
+    12      rcc 0 0 3 0 0 10 0.43
+c    Inner Aorta R10
+    13      rcc 0 0 3 0 0 10 0.48
+c    Inner Aorta R11
+    14      rcc 0 0 3 0 0 10 0.53
+c    Inner Aorta R12
+    15      rcc 0 0 3 0 0 10 0.58
+c    Inner Aorta R13
+    16      rcc 0 0 3 0 0 10 0.63
+c    Inner Aorta R14
+    17      rcc 0 0 3 0 0 10 0.68
+c    Inner Aorta R15
+    18      rcc 0 0 3 0 0 10 0.73
+c    Inner Aorta R16
+    19      rcc 0 0 3 0 0 10 0.78
+c    Inner Aorta R17
+    20      rcc 0 0 3 0 0 10 0.83
+c    Inner Aorta R18
+    21      rcc 0 0 3 0 0 10 0.88
+c    Inner Aorta R19
+    22      rcc 0 0 3 0 0 10 0.93
+c    Inner Aorta R20
+    23      rcc 0 0 3 0 0 10 0.98
+c    Inner Aorta R21
+    24      rcc 0 0 3 0 0 10 1.03
+c    Inner Aorta R22
+    25      rcc 0 0 3 0 0 10 1.08
+c    Inner Aorta R23
+    26      rcc 0 0 3 0 0 10 1.13
+c    Inner Aorta R24
+    27      rcc 0 0 3 0 0 10 1.18
+c    Inner Aorta R25
+    28      rcc 0 0 3 0 0 10 1.23
+c    BOUNDARY OF AORTA - R26
+    29      rcc 0 0 3 0 0 10 1.28
+c    Outer Aorta R27
+    30      rcc 0 0 3 0 0 10 1.33
+c    Outer Aorta R28
+    31      rcc 0 0 3 0 0 10 1.38
+c    Outer Aorta R29
+    32      rcc 0 0 3 0 0 10 1.43
+c    Outer Aorta R30
+    33      rcc 0 0 3 0 0 10 1.48
+c    Outer Aorta R31
+    34      rcc 0 0 3 0 0 10 1.53
+c    Outer Aorta R32
+    35      rcc 0 0 3 0 0 10 1.58
+c    Outer Aorta R33
+    36      rcc 0 0 3 0 0 10 1.63
+c    Outer Aorta R34
+    37      rcc 0 0 3 0 0 10 1.68
+c    Outer Aorta R35
+    38      rcc 0 0 3 0 0 10 1.73
+c    Outer Aorta R36
+    39      rcc 0 0 3 0 0 10 1.78
+c    Outer Aorta R37
+    40      rcc 0 0 3 0 0 10 1.83
+c    Outer Aorta R38
+    41      rcc 0 0 3 0 0 10 1.88
+c    Outer Aorta R39
+    42      rcc 0 0 3 0 0 10 1.93
+c    Outer Aorta R40 (0.02 cm away from lung)
+    43      rcc 0 0 3 0 0 10 1.98
+c    Test Cylinder 1 (to the right of right lung)
+    44      rcc 14.5 0 0 0 0 16 1
+c    Test Cylinder 2 (to the left of left lung)
+    45      rcc -14.5 0 0 0 0 16 1 
+c    Test Cylinder 3 (above y axis)
+    46      rcc 0 8 0 0 0 16 1 
+c    Test Cylinder 4 (below y axis)
+    47      rcc 0 -8 0 0 0 16 1
+c    Test Cylinder 5 (north east cylinder)
+    48      rcc 10 8 0 0 0 16 1
+c    Test Cylinder 6 (south east cylinder)
+    49      rcc 10 -8 0 0 0 16 1
+c    Test Cylinder 7 (north west cylinder)
+    50      rcc -10 8 0 0 0 16 1
+c    Test Cylinder 8 (south west cylinder)
+    51      rcc -10 -8 0 0 0 16 1
+c    World around Thorax (air bubble)
+    60      so 2000 
+
+c **********************DATA CARDS**********************
+c Assuming half angle is 10.85 degrees in order for cone
+c    to hit the entire phanton
+nps 100e6
+PRDMP 2j -1
+SDEF ERG=0.12  POS=59.5 0 0  PAR=2 VEC=-1 0 0  DIR=d1 WGT=111.8781
+SI1  -1 0.9821234 1
+SP1  0 0.9910617 0.0089383
+SB1 0 0 1
+mode p
+m1 1000  -0.101278  $Lung (ICRP) density = 1.05 g/cm^3
+     6000 -0.10231 
+     7000  -0.02865 
+     8000  -0.757072 
+     11000 -0.00184
+     12000 -0.00073
+     15000 -0.0008
+     16000 -0.00225
+     17000 -0.00266 
+     19000 -0.00194 
+     20000 -9e-005
+     26000 -0.00037
+     30000 -1e-005
+c
+m2 1000  -0.104472  $Soft Tissue (ICRP) density = 1 g/cm^3
+     6000 -0.23219
+     7000 -0.02488 
+     8000 -0.630238 
+     11000 -0.00113 
+     12000 -0.00013 
+     15000 -0.00133
+     16000 -0.00199 
+     17000 -0.00134 
+     19000 -0.00199 
+     20000 -0.00023 
+     26000 -5e-005 
+     30000 -3e-005
+c
+m3 1000  -0.101866  $Blood (ICRP) density = 1.06 g/cm^3
+     6000 -0.10002
+     7000 -0.02964
+     8000 -0.759414 
+     11000 -0.00185
+     12000 -4e-005
+     14000 -3e-005 
+     15000 -0.00035
+     16000 -0.00185
+     17000 -0.00278 
+     19000 -0.00163
+     20000 -6e-005
+     26000 -0.00046 
+     30000 -1e-005 
+m4 6000 -0.000124  $Air density = 1.2048E-03 g/cm^3
+     7000 -0.755267
+     8000 -0.231781
+     18000 -0.012827
+m5 1000 -0.101662   $ Blood with iodine! (density = 1.0641 g/cm^3)
+      6000 -0.09982
+      7000 -0.0295807
+      8000 -0.75569517
+      11000 -0.0018463
+      12000 -0.0000399
+      14000 -0.00002996
+      15000 -0.0003493
+      16000 -0.0018463
+      17000 -0.00277444
+      19000 -0.00162674
+      20000 -0.00005988
+      26000 -0.000459
+      30000 -0.00000998
+      53131 -0.0042 
+*f8:p 10 46I 480 500 600 700  $ EQUIVALENT TO +F26
+f6:p 10 46I 480 500 600 700
+ft6 inc
+fu6 0 1000000000
+
+
+
